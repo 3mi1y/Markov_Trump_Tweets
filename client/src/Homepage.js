@@ -47,7 +47,6 @@ export default class Homepage extends React.Component {
                 <header style={styles.header}>
                     <h1>Markov Trump Project</h1>
                     <h3 style={styles.subheader}>Generate random phrases from first and second order Markov Models trained with over 30,000 Trump tweets.</h3>
-                    <img src={trumpPicture} style={styles.image} alt="President of the United States" title="President of the United States"></img>
                     <p style={styles.subtext}>(No direspect to the POTUS, his tweets are just amazing).</p>
                     <div style={styles.linkContainer}>
                         <p><a href="#" style={styles.link}><FontAwesomeIcon style={styles.icon} icon={['fab', 'medium']} />No idea what's going on? Read my article on Medium!</a></p>
